@@ -18,8 +18,8 @@ const userSchema=mongoose.Schema({
     maxlength:100,
   },
   role:{
-    type:Number
-    default:0
+    type:Number,
+    default:0,
   },
   image:String,
   token:{
